@@ -209,6 +209,8 @@ if ($act) {
             $S['global_block']['html'] = (string)($_POST['gb_html'] ?? '');
             $S['lead_email'] = trim((string)($_POST['lead_email'] ?? ''));
             $S['og_image'] = trim((string)($_POST['og_image'] ?? ''));
+            $S['head_code'] = (string)($_POST['head_code'] ?? '');
+            $S['body_code'] = (string)($_POST['body_code'] ?? '');
             $cols = json_decode((string)($_POST['footer_cols_json'] ?? ''), true);
             if (is_array($cols)) $S['footer_cols'] = $cols;
             sv_json_write('settings', $S);
@@ -701,6 +703,14 @@ function sv_adm_settings(): void {
       <h2>Произвольный сквозной блок (HTML на всех страницах)</h2>
       <label class="chk"><input type="checkbox" name="gb_enabled" <?= !empty($S['global_block']['enabled']) ? 'checked' : '' ?>> Показывать блок</label>
       <label>HTML-код блока<textarea name="gb_html" rows="5"><?= sv_e($S['global_block']['html'] ?? '') ?></textarea></label>
+      <h2>Коды и счётчики (мета-теги ПС, Яндекс.Метрика)</h2>
+      <p class="hint">Код вставляется на всех страницах сайта как есть. Сюда вставляются: мета-теги верификации Яндекс.Вебмастера / Google Search Console и полный код счётчика Яндекс.Метрики (script + noscript). Коды, которые по инструкции нужно ставить перед &lt;/body&gt;, — во второе поле.</p>
+      <label>Код в &lt;head&gt; всех страниц (мета-теги, Метрика)
+        <textarea name="head_code" rows="8" class="mono" placeholder='&lt;meta name="yandex-verification" content="..." /&gt;&#10;&lt;meta name="google-site-verification" content="..." /&gt;&#10;&lt;!-- Яндекс.Метрика: вставьте сюда весь код счётчика --&gt;'><?= sv_e($S['head_code'] ?? '') ?></textarea>
+      </label>
+      <label>Код перед &lt;/body&gt; всех страниц (виджеты, счётчики)
+        <textarea name="body_code" rows="5" class="mono"><?= sv_e($S['body_code'] ?? '') ?></textarea>
+      </label>
       <div class="frm__btns"><button class="btn btn--primary" type="submit">Сохранить настройки</button></div>
     </form>
 <?php

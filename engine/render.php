@@ -56,6 +56,10 @@ function sv_head(array $page, array $extra = []): void {
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/style.css">
 <?php if (($extra['jsonld'] ?? '') !== '') echo $extra['jsonld']; ?>
+<?php if (!empty($S['head_code'])): ?>
+<!-- Код из админки: мета-теги поисковых систем, счётчики -->
+<?= $S['head_code'] . "\n" ?>
+<?php endif; ?>
 </head>
 <body>
 <?php
@@ -327,6 +331,10 @@ function sv_widgets(): void {
 
 <!-- Наверх -->
 <button class="totop" id="toTop" type="button" aria-label="Наверх"><?= sv_icon('arrow-up', 20) ?></button>
+<?php if (!empty($S['body_code'])): ?>
+<!-- Код из админки перед </body>: счётчики и виджеты -->
+<?= $S['body_code'] . "\n" ?>
+<?php endif; ?>
 <script src="/assets/js/main.js" defer></script>
 </body>
 </html>

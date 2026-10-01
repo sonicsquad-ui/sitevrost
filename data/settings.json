@@ -1,333 +1,335 @@
 {
-    "site": {
-        "name": "Сайт в Рост",
-        "slogan": "Диджитал-агентство полного цикла",
-        "domain": "https://sitevrost.ru"
+ "site": {
+  "name": "Сайт в Рост",
+  "slogan": "Диджитал-агентство полного цикла",
+  "domain": "https://sitevrost.ru"
+ },
+ "contacts": {
+  "phone_display": "+7 910 202-85-72",
+  "phone_raw": "+79102028572",
+  "email": "sonicsquad@mail.ru",
+  "telegram": "https://t.me/sitevrost",
+  "vk": "https://vk.ru/sitevrost",
+  "max": "https://max.ru/u/f9LHodD0cOI_H9VYUfusAAslRRwlxz4qTV1h8ZVN27x3irZ0EoK9SpifvPo",
+  "address": "Россия, работаем по всей России и СНГ",
+  "schedule": "Пн–Пт: 9:00–19:00 (МСК)",
+  "schedule_short": "Пн–Пт 9–19",
+  "requisites": "ИП Соколов Артём Викторович\nИНН 616123456789, ОГРНИП 320619600012345\nРасчётный счёт 40802810100000012345\nБанк: АО «ТБанк», БИК 044525974"
+ },
+ "topbar": {
+  "enabled": true,
+  "text": "Бесплатный аудит сайта за 24 часа — узнайте, что мешает вашему сайту расти"
+ },
+ "header": {
+  "cta_text": "Обсудить проект",
+  "cta_url": "#lead-modal"
+ },
+ "footer": {
+  "about": "Создаём сайты, которые продают, и продвигаем их в ТОП Яндекса, Google и карт. Работаем с 2019 года: 250+ проектов, 94% клиентов продлевают сотрудничество.",
+  "copyright": "© 2019–2026 Диджитал-агентство «Сайт в Рост». Все права защищены.",
+  "disclaimer": "Информация на сайте не является публичной офертой."
+ },
+ "footer_cols": [
+  {
+   "title": "Услуги",
+   "links": [
+    {
+     "label": "Разработка сайтов",
+     "url": "/razrabotka"
     },
-    "contacts": {
-        "phone_display": "+7 910 202-85-72",
-        "phone_raw": "+79102028572",
-        "email": "sonicsquad@mail.ru",
-        "telegram": "https://t.me/sitevrost",
-        "vk": "https://vk.ru/sitevrost",
-        "max": "https://max.ru/u/f9LHodD0cOI_H9VYUfusAAslRRwlxz4qTV1h8ZVN27x3irZ0EoK9SpifvPo",
-        "address": "Россия, работаем по всей России и СНГ",
-        "schedule": "Пн–Пт: 9:00–19:00 (МСК)",
-        "schedule_short": "Пн–Пт 9–19",
-        "requisites": "ИП Соколов Артём Викторович\nИНН 616123456789, ОГРНИП 320619600012345\nРасчётный счёт 40802810100000012345\nБанк: АО «ТБанк», БИК 044525974"
+    {
+     "label": "Интернет-магазины",
+     "url": "/razrabotka/internet-magaziny"
     },
-    "topbar": {
-        "enabled": true,
-        "text": "Бесплатный аудит сайта за 24 часа — узнайте, что мешает вашему сайту расти"
+    {
+     "label": "Лендинги",
+     "url": "/razrabotka/landing-page"
     },
-    "header": {
-        "cta_text": "Обсудить проект",
-        "cta_url": "#lead-modal"
+    {
+     "label": "SEO-продвижение",
+     "url": "/seo/kompleksnoe-seo"
     },
-    "footer": {
-        "about": "Создаём сайты, которые продают, и продвигаем их в ТОП Яндекса, Google и карт. Работаем с 2019 года: 250+ проектов, 94% клиентов продлевают сотрудничество.",
-        "copyright": "© 2019–2026 Диджитал-агентство «Сайт в Рост». Все права защищены.",
-        "disclaimer": "Информация на сайте не является публичной офертой."
+    {
+     "label": "GEO-продвижение",
+     "url": "/seo/geo-prodvizhenie"
     },
-    "footer_cols": [
-        {
-            "title": "Услуги",
-            "links": [
-                {
-                    "label": "Разработка сайтов",
-                    "url": "/razrabotka"
-                },
-                {
-                    "label": "Интернет-магазины",
-                    "url": "/razrabotka/internet-magaziny"
-                },
-                {
-                    "label": "Лендинги",
-                    "url": "/razrabotka/landing-page"
-                },
-                {
-                    "label": "SEO-продвижение",
-                    "url": "/seo/kompleksnoe-seo"
-                },
-                {
-                    "label": "GEO-продвижение",
-                    "url": "/seo/geo-prodvizhenie"
-                },
-                {
-                    "label": "SXO-оптимизация",
-                    "url": "/seo/sxo-optimizaciya"
-                },
-                {
-                    "label": "Контекстная реклама",
-                    "url": "/marketing/kontekstnaya-reklama"
-                }
-            ]
-        },
-        {
-            "title": "Клиентам",
-            "links": [
-                {
-                    "label": "Цены и тарифы",
-                    "url": "/ceny"
-                },
-                {
-                    "label": "Этапы работы",
-                    "url": "/etapy-raboty"
-                },
-                {
-                    "label": "Частые вопросы",
-                    "url": "/faq"
-                },
-                {
-                    "label": "Кейсы",
-                    "url": "/keysy"
-                },
-                {
-                    "label": "Блог",
-                    "url": "/blog"
-                },
-                {
-                    "label": "Бесплатные чек-листы",
-                    "url": "/instrumenty"
-                },
-                {
-                    "label": "Карьера",
-                    "url": "/vakansii"
-                },
-                {
-                    "label": "Карта сайта",
-                    "url": "/sitemap"
-                }
-            ]
-        }
-    ],
-    "menu": [
-        {
-            "label": "Услуги",
-            "url": "/razrabotka",
-            "mega": true,
-            "children": [
-                {
-                    "title": "Разработка сайтов",
-                    "url": "/razrabotka",
-                    "items": [
-                        {
-                            "label": "Корпоративные сайты",
-                            "url": "/razrabotka/korporativnye-sajty"
-                        },
-                        {
-                            "label": "Интернет-магазины",
-                            "url": "/razrabotka/internet-magaziny"
-                        },
-                        {
-                            "label": "Лендинги (Landing Page)",
-                            "url": "/razrabotka/landing-page"
-                        },
-                        {
-                            "label": "Сайты-визитки",
-                            "url": "/razrabotka/sajty-vizitki"
-                        },
-                        {
-                            "label": "UI/UX дизайн",
-                            "url": "/razrabotka/ui-ux-dizajn"
-                        },
-                        {
-                            "label": "Техподдержка",
-                            "url": "/razrabotka/tehpodderzhka"
-                        }
-                    ]
-                },
-                {
-                    "title": "Поисковое продвижение",
-                    "url": "/seo",
-                    "items": [
-                        {
-                            "label": "Комплексное SEO",
-                            "url": "/seo/kompleksnoe-seo"
-                        },
-                        {
-                            "label": "GEO-продвижение",
-                            "url": "/seo/geo-prodvizhenie"
-                        },
-                        {
-                            "label": "SXO-оптимизация",
-                            "url": "/seo/sxo-optimizaciya"
-                        },
-                        {
-                            "label": "Продвижение по позициям",
-                            "url": "/seo/prodvizhenie-po-poziciyam"
-                        },
-                        {
-                            "label": "Продвижение по трафику",
-                            "url": "/seo/prodvizhenie-po-trafiku"
-                        },
-                        {
-                            "label": "SEO-аудит",
-                            "url": "/seo/seo-audit"
-                        }
-                    ]
-                },
-                {
-                    "title": "Digital-маркетинг",
-                    "url": "/marketing",
-                    "items": [
-                        {
-                            "label": "Яндекс.Директ",
-                            "url": "/marketing/kontekstnaya-reklama"
-                        },
-                        {
-                            "label": "Таргет (VK, Telegram Ads)",
-                            "url": "/marketing/targetirovannaya-reklama"
-                        },
-                        {
-                            "label": "SERM / репутация",
-                            "url": "/marketing/serm"
-                        },
-                        {
-                            "label": "Сквозная аналитика",
-                            "url": "/marketing/skvoznaya-analitika"
-                        }
-                    ]
-                },
-                {
-                    "title": "Отраслевые решения",
-                    "url": "/otrasli",
-                    "items": [
-                        {
-                            "label": "Медицинские клиники",
-                            "url": "/otrasli/medicina"
-                        },
-                        {
-                            "label": "Строительство",
-                            "url": "/otrasli/stroitelstvo"
-                        },
-                        {
-                            "label": "B2B и промышленность",
-                            "url": "/otrasli/b2b-promyshlennost"
-                        },
-                        {
-                            "label": "E-commerce и ритейл",
-                            "url": "/otrasli/ecommerce"
-                        },
-                        {
-                            "label": "Юридические услуги",
-                            "url": "/otrasli/yuridicheskie-uslugi"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Кейсы",
-            "url": "/keysy",
-            "children": [
-                {
-                    "label": "Все проекты",
-                    "url": "/keysy"
-                },
-                {
-                    "label": "Кейсы по SEO и GEO",
-                    "url": "/keysy-seo"
-                },
-                {
-                    "label": "Кейсы по разработке",
-                    "url": "/keysy-razrabotka"
-                }
-            ]
-        },
-        {
-            "label": "Цены",
-            "url": "/ceny"
-        },
-        {
-            "label": "Блог",
-            "url": "/blog",
-            "children": [
-                {
-                    "label": "Все статьи",
-                    "url": "/blog"
-                },
-                {
-                    "label": "SEO и продвижение",
-                    "url": "/blog?cat=seo"
-                },
-                {
-                    "label": "Разработка",
-                    "url": "/blog?cat=dev"
-                },
-                {
-                    "label": "Маркетинг и аналитика",
-                    "url": "/blog?cat=marketing"
-                },
-                {
-                    "label": "Исследования",
-                    "url": "/blog?cat=research"
-                },
-                {
-                    "label": "Новости алгоритмов",
-                    "url": "/blog?cat=news"
-                }
-            ]
-        },
-        {
-            "label": "О компании",
-            "url": "/o-kompanii",
-            "children": [
-                {
-                    "label": "Команда",
-                    "url": "/komanda"
-                },
-                {
-                    "label": "Подход и методология",
-                    "url": "/podhod"
-                },
-                {
-                    "label": "Рейтинги и награды",
-                    "url": "/reytingi"
-                },
-                {
-                    "label": "Карьера",
-                    "url": "/vakansii"
-                }
-            ]
-        },
-        {
-            "label": "Контакты",
-            "url": "/kontakty"
-        }
-    ],
-    "cta": {
-        "enabled": true,
-        "title": "Обсудим ваш проект?",
-        "text": "Оставьте заявку — за 24 часа проведём бесплатный аудит и подготовим план роста с вилкой бюджета.",
-        "button": "Получить план роста"
+    {
+     "label": "SXO-оптимизация",
+     "url": "/seo/sxo-optimizaciya"
     },
-    "global_block": {
-        "enabled": false,
-        "html": ""
-    },
-    "lead_email": "sonicsquad@mail.ru",
-    "og_image": "/assets/img/og-cover.jpg",
-    "blog_cats": {
-        "seo": {
-            "name": "SEO и продвижение",
-            "description": "Поисковая оптимизация, GEO, SXO"
-        },
-        "dev": {
-            "name": "Разработка",
-            "description": "Сайты, магазины, UX"
-        },
-        "marketing": {
-            "name": "Маркетинг и аналитика",
-            "description": "Реклама, SERM, аналитика"
-        },
-        "research": {
-            "name": "Исследования",
-            "description": "Собственные данные рынка"
-        },
-        "news": {
-            "name": "Новости алгоритмов",
-            "description": "Апдейты Яндекса и Google"
-        }
+    {
+     "label": "Контекстная реклама",
+     "url": "/marketing/kontekstnaya-reklama"
     }
+   ]
+  },
+  {
+   "title": "Клиентам",
+   "links": [
+    {
+     "label": "Цены и тарифы",
+     "url": "/ceny"
+    },
+    {
+     "label": "Этапы работы",
+     "url": "/etapy-raboty"
+    },
+    {
+     "label": "Частые вопросы",
+     "url": "/faq"
+    },
+    {
+     "label": "Кейсы",
+     "url": "/keysy"
+    },
+    {
+     "label": "Блог",
+     "url": "/blog"
+    },
+    {
+     "label": "Бесплатные чек-листы",
+     "url": "/instrumenty"
+    },
+    {
+     "label": "Карьера",
+     "url": "/vakansii"
+    },
+    {
+     "label": "Карта сайта",
+     "url": "/sitemap"
+    }
+   ]
+  }
+ ],
+ "menu": [
+  {
+   "label": "Услуги",
+   "url": "/razrabotka",
+   "mega": true,
+   "children": [
+    {
+     "title": "Разработка сайтов",
+     "url": "/razrabotka",
+     "items": [
+      {
+       "label": "Корпоративные сайты",
+       "url": "/razrabotka/korporativnye-sajty"
+      },
+      {
+       "label": "Интернет-магазины",
+       "url": "/razrabotka/internet-magaziny"
+      },
+      {
+       "label": "Лендинги (Landing Page)",
+       "url": "/razrabotka/landing-page"
+      },
+      {
+       "label": "Сайты-визитки",
+       "url": "/razrabotka/sajty-vizitki"
+      },
+      {
+       "label": "UI/UX дизайн",
+       "url": "/razrabotka/ui-ux-dizajn"
+      },
+      {
+       "label": "Техподдержка",
+       "url": "/razrabotka/tehpodderzhka"
+      }
+     ]
+    },
+    {
+     "title": "Поисковое продвижение",
+     "url": "/seo",
+     "items": [
+      {
+       "label": "Комплексное SEO",
+       "url": "/seo/kompleksnoe-seo"
+      },
+      {
+       "label": "GEO-продвижение",
+       "url": "/seo/geo-prodvizhenie"
+      },
+      {
+       "label": "SXO-оптимизация",
+       "url": "/seo/sxo-optimizaciya"
+      },
+      {
+       "label": "Продвижение по позициям",
+       "url": "/seo/prodvizhenie-po-poziciyam"
+      },
+      {
+       "label": "Продвижение по трафику",
+       "url": "/seo/prodvizhenie-po-trafiku"
+      },
+      {
+       "label": "SEO-аудит",
+       "url": "/seo/seo-audit"
+      }
+     ]
+    },
+    {
+     "title": "Digital-маркетинг",
+     "url": "/marketing",
+     "items": [
+      {
+       "label": "Яндекс.Директ",
+       "url": "/marketing/kontekstnaya-reklama"
+      },
+      {
+       "label": "Таргет (VK, Telegram Ads)",
+       "url": "/marketing/targetirovannaya-reklama"
+      },
+      {
+       "label": "SERM / репутация",
+       "url": "/marketing/serm"
+      },
+      {
+       "label": "Сквозная аналитика",
+       "url": "/marketing/skvoznaya-analitika"
+      }
+     ]
+    },
+    {
+     "title": "Отраслевые решения",
+     "url": "/otrasli",
+     "items": [
+      {
+       "label": "Медицинские клиники",
+       "url": "/otrasli/medicina"
+      },
+      {
+       "label": "Строительство",
+       "url": "/otrasli/stroitelstvo"
+      },
+      {
+       "label": "B2B и промышленность",
+       "url": "/otrasli/b2b-promyshlennost"
+      },
+      {
+       "label": "E-commerce и ритейл",
+       "url": "/otrasli/ecommerce"
+      },
+      {
+       "label": "Юридические услуги",
+       "url": "/otrasli/yuridicheskie-uslugi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "label": "Кейсы",
+   "url": "/keysy",
+   "children": [
+    {
+     "label": "Все проекты",
+     "url": "/keysy"
+    },
+    {
+     "label": "Кейсы по SEO и GEO",
+     "url": "/keysy-seo"
+    },
+    {
+     "label": "Кейсы по разработке",
+     "url": "/keysy-razrabotka"
+    }
+   ]
+  },
+  {
+   "label": "Цены",
+   "url": "/ceny"
+  },
+  {
+   "label": "Блог",
+   "url": "/blog",
+   "children": [
+    {
+     "label": "Все статьи",
+     "url": "/blog"
+    },
+    {
+     "label": "SEO и продвижение",
+     "url": "/blog?cat=seo"
+    },
+    {
+     "label": "Разработка",
+     "url": "/blog?cat=dev"
+    },
+    {
+     "label": "Маркетинг и аналитика",
+     "url": "/blog?cat=marketing"
+    },
+    {
+     "label": "Исследования",
+     "url": "/blog?cat=research"
+    },
+    {
+     "label": "Новости алгоритмов",
+     "url": "/blog?cat=news"
+    }
+   ]
+  },
+  {
+   "label": "О компании",
+   "url": "/o-kompanii",
+   "children": [
+    {
+     "label": "Команда",
+     "url": "/komanda"
+    },
+    {
+     "label": "Подход и методология",
+     "url": "/podhod"
+    },
+    {
+     "label": "Рейтинги и награды",
+     "url": "/reytingi"
+    },
+    {
+     "label": "Карьера",
+     "url": "/vakansii"
+    }
+   ]
+  },
+  {
+   "label": "Контакты",
+   "url": "/kontakty"
+  }
+ ],
+ "cta": {
+  "enabled": true,
+  "title": "Обсудим ваш проект?",
+  "text": "Оставьте заявку — за 24 часа проведём бесплатный аудит и подготовим план роста с вилкой бюджета.",
+  "button": "Получить план роста"
+ },
+ "global_block": {
+  "enabled": false,
+  "html": ""
+ },
+ "lead_email": "sonicsquad@mail.ru",
+ "og_image": "/assets/img/og-cover.jpg",
+ "blog_cats": {
+  "seo": {
+   "name": "SEO и продвижение",
+   "description": "Поисковая оптимизация, GEO, SXO"
+  },
+  "dev": {
+   "name": "Разработка",
+   "description": "Сайты, магазины, UX"
+  },
+  "marketing": {
+   "name": "Маркетинг и аналитика",
+   "description": "Реклама, SERM, аналитика"
+  },
+  "research": {
+   "name": "Исследования",
+   "description": "Собственные данные рынка"
+  },
+  "news": {
+   "name": "Новости алгоритмов",
+   "description": "Апдейты Яндекса и Google"
+  }
+ },
+ "head_code": "",
+ "body_code": ""
 }
