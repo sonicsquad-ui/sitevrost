@@ -330,6 +330,6 @@
    "description": "Апдейты Яндекса и Google"
   }
  },
- "head_code": "<meta name='yandex-verification' content='e95b253d26c88c36' />",
+ "head_code": "<meta name='yandex-verification' content='e95b253d26c88c36' />\n<!-- Yandex.Metrika counter -->\n<script type=\"text/javascript\">\n   (function(m,e,t,r,n,k){\n      m[n]=m[n]||[];m[n].push({\"ym.start\":new Date().getTime(),\"ym.rid\":r});\n      k=e.createElement('script');k.async=1;k.src=t;\n      (e.getElementsByTagName('head')[0]||e.getElementsByTagName('body')[0]).appendChild(k);\n   })(window,document,\"https://mc.yandex.ru/metrika/tag.js?id=105286354\",\"ym\");\n\n   ym(105286354, \"init\", {\n      clickmap:true,\n      trackLinks:true,\n      accurateTrackBounce:true,\n      webvisor:true\n   });\n</script>\n<noscript><div><img src=\"https://mc.yandex.ru/watch/105286354\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n<!-- /Yandex.Metrika counter -->",
  "body_code": ""
 }
