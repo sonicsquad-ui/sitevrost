@@ -1,0 +1,9 @@
+# Служебные runtime-файлы (создаются автоматически)
+data/sessions/
+data/mail.log
+data/lead_rate.json
+data/login_attempts.json
+
+# Загрузки админки (контент хостинга, не репозитория)
+upload/*
+!upload/.htaccess

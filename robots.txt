@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/
+Disallow: /engine/
+Disallow: /data/
+Disallow: /tools/
+Disallow: /*?utm
+Disallow: /*?gclid
+Disallow: /*?yclid
+Disallow: /*?from
+
+Allow: /upload/
+Allow: /assets/
+
+Sitemap: https://sitevrost.ru/sitemap.xml
+Host: https://sitevrost.ru
